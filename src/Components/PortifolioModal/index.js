@@ -8,7 +8,9 @@ function PortifolioModal(props) {
 
   return( 
     <S.Container>
-
+        <div>
+          <h1>history</h1>
+        </div>
 
     </S.Container>
   );
