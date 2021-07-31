@@ -27,7 +27,6 @@ function Footer() {
       <p >
       Copyright © 2021 All rights reserved 
       </p>
-
     </S.InfoFooter>
       
 	</S.Container>

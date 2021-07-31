@@ -14,12 +14,14 @@ function MeusServicos(){
         <S.Container className="container">
         <Container >
         <Row>
-          <Col md="12" sm="12">
-            <div className="meusServ-title">
-                <h1>Meus Serviços</h1>
-                <p></p>
+          <Col md="4" sm="4" className="left"></Col>
+          <Col className="border-meusServicos" md="4" sm="4" >
+            <div className="titlle-meusServicos">
+              <h1>Meus Serviços</h1>
+              <p></p>
             </div>
           </Col>
+          <Col  md="4" sm="4" className="right"></Col>
         </Row>
         <Row >
             <Col md="4" sm="4">

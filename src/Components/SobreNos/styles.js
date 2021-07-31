@@ -6,15 +6,12 @@ border:0.5px solid;
 border-top:transparent;
 border-bottom:transparent;
 
+
 display:flex;
 justify-content:center;
 flex-wrap: wrap;
 
 
-// @media(max-width:575px){
-    
-
-// }
 
 `
 export const SobreNostitle = styled.div`
@@ -31,9 +28,7 @@ align-items: center;
 h1{
     padding-top:10px;
     padding-bottom:20px;
-    color:#FFF;
-    
-
+    color:#FFF; 
 }
 p{
     border:1px solid #fff;
@@ -44,48 +39,54 @@ p{
 `
 
 export const SobreNosleftSide = styled.div`
-width:50%;
-
+width:66.66%;
 
 display:flex;
 
 
+// background:black;
+// background-position: center ;
+// background-size: cover;
+// background-repeat: no-repeat;
 
+.border-style{
+    width:100%;
 
-background:black;
-background-position: center ;
-background-size: cover;
-background-repeat: no-repeat;
-
-
-img{
-    width:60%;
-    height: 450px;
-    margin-left:20%;
-
-    border:0.5px solid;
-    border-right:none;
-    border-left:none;
     
+    img{
+        width:100%;
+        margin-right:10px;
+        height: 450px;
+        padding-top:10px;
+
+        border:0.5px solid;
+        border-left:transparent;
+        border-top:transparent;
+    
+        
+    }
+}
+
+@media(max-width:575px){
+    width:100%;
 }
 
 `
 export const SobreNosRightSide = styled.div`
-width:50%;
-
+width:33.33%;
+padding:10px 10px 10px 10px;
 display:flex;
 justify-content: center; 
 flex-wrap:wrap;
 
 
+
 h3,p{
-    padding:10px 10px 10px 10px;
     color:#fff;
 }
 
 .button-Cv{
     display:flex; 
-    padding-left:10px;
     
     Button{
         font-size: 11px;
@@ -107,5 +108,10 @@ h3,p{
         }
         
     }
+}
+
+
+@media(max-width:575px){
+    width:100%;
 }
 `

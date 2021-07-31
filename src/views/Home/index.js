@@ -10,7 +10,7 @@ import Portifolio from "../../Components/Portifolio";
 import Footer from "../../Components/Footer";
 import SobreNos from "../../Components/SobreNos";
 import MeusServicos from "../../Components/MeusServicos";
-
+import CursoseEventos from "../../Components/CursosEeventos"
 //Import img function "posicaoScroll"
 import logo2 from '../../assets/LOGO_2021.png'
 import logo from '../../assets/LOGO_2021 WHITE.png'
@@ -41,7 +41,7 @@ function Home() {
           <Portifolio/>
           <SobreNos/>
           <MeusServicos/>
-          
+          <CursoseEventos/>
 
           <Footer/>
         </S.Container>

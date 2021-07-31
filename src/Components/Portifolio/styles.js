@@ -7,6 +7,7 @@ border:1px solid ;
 border-top:transparent;
 border-bottom:transparent;
 
+
 #border-styled{
     border:0.5px solid;
     border-top:transparent;
@@ -58,17 +59,10 @@ border-bottom:transparent;
 }
 
 
-
-
-
-
-
-
 .port-work-A{
     width:100%;
     height:230px;
     margin-bottom:30px; 
-
 
     background-image: url(${img});
     background-position: bottom ;

@@ -3,6 +3,7 @@ import styled from 'styled-components';
 export const Container = styled.div`
 border:0.5px solid;
 border-top:transparent;
+border-bottom:transparent;
 
 
 #border-styled{
@@ -16,28 +17,26 @@ border-top:transparent;
     }
 }
 
-.meusServ-title{
-    width:100%;
-    padding-top:60px;
-    padding-bottom:60px;
+.border-meusServicos{
+    padding-top:50px;
+    padding-bottom:50px;
+    border:0.5px solid ;
+    border-top:transparent;
+    border-bottom:transparent;
+}
+.titlle-meusServicos{
     display:flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
-    
+   
     h1{
-        padding-top:10px;
-        padding-bottom:20px;
-        color:#FFF;
-        
-       
+        color:#fff;
     }
-
     p{
+        width:40%;
         border:1px solid #fff;
-        width:10%;
-    }
-
-
+    }    
+       
 }
 `

@@ -18,8 +18,7 @@ function Portifolio(props) {
         <Container className="port-work-title">
           <h1>Portifolio</h1>
         </Container>
-      
-          
+                
         <Container className="port-work-A text-style hover-effect">
             <PortifolioModal/>    
           <div class="portfolio-item-content">
@@ -28,13 +27,6 @@ function Portifolio(props) {
           </div>
         </Container>
           
-
-
-
-
-
-
-
         <Container className="port-work-B text-style hover-effect">
         <div class="portfolio-item-content">
             <h3>Shoe Rebranding</h3>

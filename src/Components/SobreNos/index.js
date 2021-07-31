@@ -2,7 +2,7 @@ import React from "react";
 import * as S from './styles';
 import { Button } from 'reactstrap';
 
-import perfil from '../../assets/Sem título.png';
+import perfil from '../../assets/744527.jpg';
 
 
 function SobreNos() {
@@ -10,19 +10,20 @@ function SobreNos() {
 
   return( 
     <S.Container className="container">
+
       <S.SobreNostitle>
         <h1>Sobre Mim</h1>
         <p></p>
       </S.SobreNostitle>
       
       <S.SobreNosleftSide >
-        <div >
+        <div className="border-style leftSide-breakpoint">
           <img src={perfil} alt='Logo'/>
         </div>
       </S.SobreNosleftSide>
 
       <S.SobreNosRightSide>
-          <div>
+          <div className="rigthSide-breakpoint">
             <h3>Nós podemos fazer isso juntos</h3>
             <p>
               Muito longe, atrás da palavra montanhas, longe dos países Vokalia e Consonantia, 

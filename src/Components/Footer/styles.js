@@ -5,7 +5,6 @@ export const Container = styled.div`
 width:100%;
 background:#191919;
 
-
 display:flex;
 justify-content: center; 
 flex-direction: column;
@@ -42,7 +41,6 @@ a{
     &:hover{
         color:#FFB90F;
     }
-
 }    
 
 
@@ -51,7 +49,7 @@ a{
 export const InfoFooter = styled.div`
 display:flex;
 justify-content: center; 
-padding-bottom:80px;
+padding-bottom:30px;
 
 p{
     color:rgba(255, 255, 255, 0.6);
