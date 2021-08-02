@@ -1,5 +1,13 @@
 import styled from 'styled-components';
-import img from '../../assets/logotipo-nike-em-fundo-branco-logótipo-da-ilustração-editorial-empresa-168841205.jpg';
+import xwork_1 from '../../assets/xwork_1_md.jpg';
+import xwork_2 from '../../assets/xwork_2_md.jpg';
+import xwork_3 from '../../assets/xwork_3_md.jpg';
+import xwork_4 from '../../assets/xwork_4_full.jpg';
+import xwork_5 from '../../assets/xwork_5_md.jpg';
+import xwork_6 from '../../assets/xwork_6_md.jpg';
+import xwork_7 from '../../assets/xwork_7_md.jpg';
+import xwork_8 from '../../assets/xwork_8_md.jpg';
+import xwork_9 from '../../assets/xwork_9_a_md.jpg';
 
 export const Container = styled.div`
 width:100%;
@@ -8,16 +16,17 @@ border-top:transparent;
 border-bottom:transparent;
 
 
+
 #border-styled{
     border:0.5px solid;
     border-top:transparent;
-    border-bottom:transparent;
+    // border-bottom:transparent;
 }
 
 .text-style{
     display:flex;
     align-items: flex-end;
-
+    
     .portfolio-item-content{
         display:block;
         line-height: 0.5;  
@@ -31,6 +40,7 @@ border-bottom:transparent;
 
 .hover-effect{
     cursor:pointer;
+    
 
     :hover{
     opacity:0.7;
@@ -38,16 +48,21 @@ border-bottom:transparent;
     
     .portfolio-item-content{
         display:block;
+        
         h3{
-            color:#FFB90F;
+            color:#ff8b00;
             font-size: 18px;
         }
-        p{
-           
+        p{  
+           color:black;
             font-size: 12px;
         }
     } 
 }
+}
+
+a{
+    text-decoration: none;
 }
 
 .port-work-title{
@@ -63,8 +78,8 @@ border-bottom:transparent;
     width:100%;
     height:230px;
     margin-bottom:30px; 
-
-    background-image: url(${img});
+   
+    background-image: url(${xwork_1});
     background-position: bottom ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -76,7 +91,7 @@ border-bottom:transparent;
     height:230px;    
     margin-bottom:30px; 
 
-    background-image: url(${img});
+    background-image: url(${xwork_2});
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -88,7 +103,7 @@ border-bottom:transparent;
     height:465px;   
     margin-bottom:30px; 
 
-    background-image: url(${img});
+    background-image: url(${xwork_3});
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -100,7 +115,7 @@ border-bottom:transparent;
     margin-bottom:30px; 
     margin-top:130px;
 
-    background-image: url(${img});
+    background-image: url(${xwork_4});
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -111,7 +126,7 @@ border-bottom:transparent;
     height:460px;  
     margin-bottom:30px; 
 
-    background-image: url(${img});
+    background-image: url(${xwork_5});
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -122,7 +137,7 @@ border-bottom:transparent;
     height:230px;  
     margin-bottom:30px;   
 
-    background-image: url(${img});
+    background-image: url(${xwork_6});
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -134,7 +149,7 @@ border-bottom:transparent;
     margin-top:130px;   
     margin-bottom:30px; 
 
-    background-image: url(${img});
+    background-image: url(${xwork_7});
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -145,7 +160,7 @@ border-bottom:transparent;
     height:265px;   
     margin-bottom:30px; 
 
-    background-image: url(${img});
+    background-image: url(${xwork_8});
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;
@@ -156,7 +171,7 @@ border-bottom:transparent;
     height:265px;    
     margin-bottom:30px; 
 
-    background-image: url(${img});
+    background-image: url(${xwork_9});
     background-position: center ;
     background-repeat: no-repeat;
     background-size: cover;

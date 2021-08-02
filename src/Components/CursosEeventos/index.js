@@ -21,12 +21,18 @@ function CursosEeventos() {
           <Col  md="4" sm="4" className="right"></Col>
         </Row>
 
-
         <Row>
+
           <Col className="border-post1" sm="6" md="8">
-          <div className="bg-width bg-post1 bg-position">
+          <div className="bg-width bg-post1 bg-position text-style hover-effect">
+          <div class="portfolio-item-content">
+              <h3>Shoe Rebranding</h3>
+              <p>web, branding</p>
+            </div>
           </div>
           </Col>
+
+
           <Col className="border-post2" sm="6" md="4">
           <div className="bg-width bg-post2 bg-position">
           </div>

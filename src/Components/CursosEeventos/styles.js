@@ -36,15 +36,55 @@ border-top:transparent;
     background-size: cover;
 }
 
+.text-style{
+    padding-left:10px;
+    
+    display:flex;
+    align-items: flex-end;
+    
+    
+    .portfolio-item-content{
+        display:block;
+        line-height: 0.5;  
+    }
+    
+    .portfolio-item-content{
+        display:none;
+    }
+
+}
+
+.hover-effect{
+    cursor:pointer;
+    
+    :hover{
+    
+    transition: .3s all ease;
+    .portfolio-item-content{
+        display:block;
+        
+        h3{
+            color:#ff8b00;
+            font-size: 18px;
+        }
+        p{  
+           color:black;
+            font-size: 12px;
+        }
+    } 
+}
+}
+
 
 .border-post1{
-   
-
+    
     border:0.5px solid ;
     border-top:transparent;
     border-left:transparent;
     border-bottom:transparent;
+
     
+
     .bg-post1{
         background-image: url(${post1});
     

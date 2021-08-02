@@ -28,7 +28,7 @@ a{
     margin: 0 15px;
 
     &:hover{
-        color:#FFB90F;
+        color:#ff8b00;
        
     }
 }

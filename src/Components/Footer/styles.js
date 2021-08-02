@@ -39,7 +39,7 @@ a{
     color:rgba(255, 255, 255, 0.6);
 
     &:hover{
-        color:#FFB90F;
+        color:#ff8b00;
     }
 }    
 
