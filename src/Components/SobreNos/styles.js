@@ -12,31 +12,55 @@ justify-content:center;
 flex-wrap: wrap;
 
 
+.titlle-sobrenos{
+    padding-top:100px;
+    padding-bottom:70px;
+
+    border:0.5px solid;
+    border-top:transparent;
+    border-bottom:transparent;
+
+    display:flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+   
+    h1{
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        font-size:30px;
+        color:#FFF; 
+    }
+    p{
+        width:30%;
+        border:1px solid #fff;
+    }    
+       
+}
 
 `
-export const SobreNostitle = styled.div`
-width:100%;
-padding-top:60px;
-padding-bottom:60px;
+// export const SobreNostitle = styled.div`
+// width:100%;
+// padding-top:100px;
+// padding-bottom:60px;
 
+// display:flex;
+// flex-direction: column;
+// justify-content:center;
+// align-items: center;
 
-display:flex;
-flex-direction: column;
-justify-content:center;
-align-items: center;
+// h1{
+//     font-family: 'Raleway', sans-serif;
+//     font-weight: 900;
+//     font-size:30px;
+//     color:#FFF; 
+// }
+// p{
+//     border:1px solid #fff;
+//     width:10%;
+// }
 
-h1{
-    padding-top:10px;
-    padding-bottom:20px;
-    color:#FFF; 
-}
-p{
-    border:1px solid #fff;
-    width:10%;
-}
-
-
-`
+// `
 
 export const SobreNosleftSide = styled.div`
 width:66.66%;
@@ -61,8 +85,6 @@ display:flex;
 
         border:0.5px solid;
         border-left:transparent;
-        border-top:transparent;
-    
         
     }
 }

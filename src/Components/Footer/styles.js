@@ -36,13 +36,15 @@ a{
     margin: 0 15px;
     text-decoration:none;
     font-weight: bold;
+    font-size: 12px;
+    letter-spacing: .1rem;
+    text-transform: uppercase;
     color:rgba(255, 255, 255, 0.6);
 
     &:hover{
         color:#ff8b00;
     }
 }    
-
 
 `
 

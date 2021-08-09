@@ -25,16 +25,20 @@ border-bottom:transparent;
     border-bottom:transparent;
 }
 .titlle-meusServicos{
+    padding-top:70px;
     display:flex;
     flex-direction: column;
     justify-content:center;
     align-items: center;
    
     h1{
-        color:#fff;
+        font-family: 'Raleway', sans-serif;
+        font-weight: 900;
+        font-size:30px;
+        color:#FFF; 
     }
     p{
-        width:40%;
+        width:30%;
         border:1px solid #fff;
     }    
        

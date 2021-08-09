@@ -11,11 +11,11 @@ import logo from '../../assets/LOGO_2021 WHITE.png'
 
 function MeusServicos(){
     return(
-        <S.Container className="container">
+        <S.Container id="meusServicos" className="container">
         <Container >
         <Row>
           <Col md="4" sm="4" className="left"></Col>
-          <Col className="border-meusServicos" md="4" sm="4" >
+          <Col className="border-meusServicos " md="4" sm="4" >
             <div className="titlle-meusServicos">
               <h1>Meus Serviços</h1>
               <p></p>
