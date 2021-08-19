@@ -3,14 +3,12 @@ import styled from 'styled-components';
 
 export const Container = styled.div`
 width:100%;
+
 background:#191919;
 
 display:flex;
 justify-content: center; 
 flex-direction: column;
-
-
-
 
 `
 

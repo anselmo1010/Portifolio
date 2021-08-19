@@ -11,72 +11,43 @@ display:flex;
 justify-content:center;
 flex-wrap: wrap;
 
-
-.titlle-sobrenos{
-    padding-top:100px;
-    padding-bottom:70px;
-
-    border:0.5px solid;
+.title-style{
+    border:0.5px solid ;
     border-top:transparent;
     border-bottom:transparent;
 
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-   
-    h1{
-        font-family: 'Raleway', sans-serif;
-        font-weight: 900;
-        font-size:30px;
-        color:#FFF; 
-    }
-    p{
-        width:30%;
-        border:1px solid #fff;
-    }    
+    .titlle-sobrenos{
+        padding-top:100px;
+        padding-bottom:70px;
+
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
        
-}
+        h1{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 900;
+            font-size:30px;
+            color:#FFF; 
+        }
+        p{
+            width:30%;
+            border:1px solid #fff;
+        }    
+           
+    }
+}    
 
 `
-// export const SobreNostitle = styled.div`
-// width:100%;
-// padding-top:100px;
-// padding-bottom:60px;
-
-// display:flex;
-// flex-direction: column;
-// justify-content:center;
-// align-items: center;
-
-// h1{
-//     font-family: 'Raleway', sans-serif;
-//     font-weight: 900;
-//     font-size:30px;
-//     color:#FFF; 
-// }
-// p{
-//     border:1px solid #fff;
-//     width:10%;
-// }
-
-// `
 
 export const SobreNosleftSide = styled.div`
 width:66.66%;
-
 display:flex;
-
-
-// background:black;
-// background-position: center ;
-// background-size: cover;
-// background-repeat: no-repeat;
 
 .border-style{
     width:100%;
 
-    
     img{
         width:100%;
         margin-right:10px;
@@ -114,7 +85,7 @@ h3,p{
         font-size: 11px;
 
         background:transparent;
-        border:2px solid #191919;
+        border: 2px solid rgba(255,255,255,.5);
         border-radius: 30px;
         padding-top: 15px;
         padding-bottom: 15px;

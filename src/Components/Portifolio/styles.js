@@ -16,7 +16,6 @@ border-top:transparent;
 border-bottom:transparent;
 
 
-
 #border-styled{
     border:0.5px solid;
     border-top:transparent;
@@ -26,16 +25,6 @@ border-bottom:transparent;
 .text-style{
     display:flex;
     align-items: flex-end;
-    
-    .portfolio-item-content{
-        display:block;
-        line-height: 0.5;  
-    }
-    
-    .portfolio-item-content{
-        display:none;
-    }
-
 }
 
 .hover-effect{
@@ -45,7 +34,7 @@ border-bottom:transparent;
     opacity:0.6;
     transition: .3s all ease;
     
-    .portfolio-item-content{
+    .item-content{
         display:block;
         
         h3{

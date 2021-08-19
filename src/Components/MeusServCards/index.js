@@ -2,9 +2,9 @@ import React from "react";
 import * as S from './styles';
 
 
-
+  
 function MeusServCards({logo,title_firstWord,title_secondtWord,content}){
-   
+
 
     return( 
       <S.Container >

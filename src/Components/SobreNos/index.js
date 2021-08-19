@@ -14,7 +14,7 @@ function SobreNos() {
         <Container >
           <Row>
             <Col className="left" md="4" sm="4" ></Col>
-            <Col md="4" sm="4" >
+            <Col className="title-style" md="4" sm="4" >
               <div className="titlle-sobrenos" >
                 <h1>Sobre Nós</h1>
                 <p></p>

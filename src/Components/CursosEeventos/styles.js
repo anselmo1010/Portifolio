@@ -13,30 +13,32 @@ border:1px solid;
 border-top:transparent;
 border-bottom:transparent;
 
-
-.titlle-cursos{
-    padding-top:100px;
-    padding-bottom:50px;
-
-    display:flex;
-    flex-direction: column;
-    justify-content:center;
-    align-items: center;
-
+.title-style{
     border:0.5px solid ;
     border-top:transparent;
     border-bottom:transparent;
+    
+    .titlle-cursos{
+        padding-top:100px;
+        padding-bottom:50px;
+    
+        display:flex;
+        flex-direction: column;
+        justify-content:center;
+        align-items: center;
 
-    h1{
-        font-family: 'Raleway', sans-serif;
-        font-weight: 900;
-        font-size:30px;
-        color:#FFF; 
+    
+        h1{
+            font-family: 'Raleway', sans-serif;
+            font-weight: 900;
+            font-size:30px;
+            color:#FFF; 
+        }
+        p{
+            width:30%;
+            border:1px solid #fff;
+        }   
     }
-    p{
-        width:30%;
-        border:1px solid #fff;
-    }   
 }
 
 .bg-width{
@@ -56,16 +58,6 @@ border-bottom:transparent;
     display:flex;
     align-items: flex-end;
     
-    
-    .portfolio-item-content{
-        display:block;
-        line-height: 0.5;  
-    }
-    
-    .portfolio-item-content{
-        display:none;
-    }
-
 }
 
 .hover-effect{
@@ -75,7 +67,7 @@ border-bottom:transparent;
      transition: .3s all ease;
      opacity:0.6;
 
-    .portfolio-item-content{
+    .item-content{
         display:block;
         h3{
             color:#ff8b00;

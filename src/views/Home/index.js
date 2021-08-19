@@ -45,7 +45,6 @@ function Home() {
           <MeusServicos/>
           <CursoseEventos/>
           <Contato/>
-
           <Footer/>
         </S.Container>
   )

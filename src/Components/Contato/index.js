@@ -11,7 +11,7 @@ function Contato(props){
          <Container>
            <Row>
             <Col md="4" sm="4"></Col>
-            <Col md="4" sm="4" >
+            <Col className="title-style" md="4" sm="4" >
                 <div className="titlle-contato">
                 <h1>Contato</h1>
                 <p></p>
@@ -19,27 +19,26 @@ function Contato(props){
             </Col>
             <Col  md="4" sm="4"></Col>
            </Row>
-
            <Row>
             <Col className="left-form" md="8">
             <Form inline>
                 <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
-                    <Label for="exampleEmail" className="mr-sm-2">Email</Label>
-                    <Input type="email" name="email" id="exampleEmail" placeholder="something@idk.cool" />
+                    <Label for="exampleName" className="mr-sm-2"></Label>
+                    <Input type="text" name="name" id="name" placeholder="Digite seu nome " />
                 </FormGroup>
                 <FormGroup className="mb-2 mr-sm-2 mb-sm-0">
-                    <Label for="examplePassword" className="mr-sm-2">Password</Label>
-                    <Input type="password" name="password" id="examplePassword" placeholder="don't tell!" />
+                    <Label for="exampleEmail" className="mr-sm-2"></Label>
+                    <Input type="email" name="email" id="exampleEmail" placeholder="seuEmail@email.com" />
                 </FormGroup>
                 <FormGroup>
-                    <Label for="exampleText">Text Area</Label>
-                    <Input type="textarea" name="text" id="exampleText"  rows="5"/>
+                    <Label for="exampleText"></Label>
+                    <Input type="textarea" name="text" id="exampleText" rows="5" placeholder="Digite sua menssagem"/>
                 </FormGroup>
-                <Button>Enviar Menssagem    </Button>
+                <Button>Enviar Menssagem</Button>
             </Form>
             </Col>
                <Col className="right-form" md="4">
-                 <Col>
+                 <Col>  
                     <div>
                         <h3>EMAIL</h3>
                         <p>ansdebom@gmail.com</p>
